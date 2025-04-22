@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400..800&family=Iansui&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Titan+One&display=swap');
+
+@keyframes ani {
+    from{
+        
+
+    }
+    to{
+        transform: translate(calc(-50% - .5rem));
+    }
+}
+*{padding: 0px;
+margin: 0px;}
+
+
+.logo img{
+    padding: 0px;
+    position: relative;
+    left: 120px;
+    top: 40px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    height: 10vh;
+    /* border: 2px solid black; */
+    
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    /* flex-direction: end; */
+    /* justify-content: center; */
+    gap: 40px;
+}
+nav ul li{
+    justify-items: center;
+    position: relative;
+    left: 280px;
+    list-style: none;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+  font-family: "Baloo Tamma 2", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-size: large ;
+  font-size: 100%;
+  text-align: center;
+  justify-content: center;
+}
+nav ul li span{
+    padding: 0 5px;
+}
+.box{
+    /* border: 2px solid black; */
+    padding-top: 100px;
+    /* margin: 20px; */
+    
+   
+}
+.para{
+    text-align: center;
+    font-family: "Baloo Tamma 2", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: large;
+  font-size: 400%;
+
+}
+.para1{
+   
+   margin: 0px 350px 0px 350px;
+    text-align: center;
+    font-family: "Baloo Tamma 2", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-size: large ;
+  font-size: 150%;
+  color: rgb(107, 105, 105);
+
+}
+.searchbar{
+    text-align: center;
+    position: relative;
+    padding: 0px 420px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.searchbar button{
+    padding: 20px ;
+    border: 3px solid rgb(148, 219, 148);
+    border-radius: 70px;
+    background-color: transparent;
+    font-family: "Baloo Tamma 2", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  color: rgb(146, 145, 145);
+  font-size: 120%;
+  text-align: left;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+ 
+  
+}
+.apps{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.apps ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    
+position: relative;
+flex-direction: row;
+gap: 20px;
+   
+}
+.apps ul li{
+    background-color: transparent;
+}
+.apps img{
+    height: 44px;
+    width: 44px;
+    
+}
+.cont{
+    text-align: center;
+    font-family: "Baloo Tamma 2", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  color: rgb(146, 145, 145);
+  font-size: 100%;
+}
+.picbox{
+    height: 40vh;
+    /* width: 95vw; */
+    border: 2px transparent;
+    margin-top: 100px;
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    justify-items: center;
+    justify-content: center;
+
+
+
+}
+.picbox img{
+    padding: 20px;
+    border-radius: 30px;
+    animation: ani 40s linear 2s infinite ;
+    /* animation-duration: forwards; */
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 30px;
+    cursor: pointer;
+    justify-content: center;
+
+}
+.content{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.earth{
+    margin: 44px;
+    margin-left: 84px;
+    /* padding-left: 54px; */
+    /* border: 2px solid black; */
+    width: 544px;
+    height: 544px;
+    position: relative;
+    /* justify-items: center; */
+}
+.earth p{
+    /* padding: 22px; */
+    text-align: left;
+    font-family: "Baloo Tamma 2", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: bold;
+  color: black;
+  font-size: 200%;
+}
+.earth img{
+    margin: 12px;
+    
+    /* width: 244px; */
+    /* height: 244px; */
+}
+.grid{
+    /* border: 2px solid black; */
+    width: 544px;
+    height: 544px;
+    margin-top: 44px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+    
+   
+}
+.grid span{
+    display: flex;
+    margin: 12px 82px;
+    border-radius: 8px;
+   padding: 4px 4px ;
+    background-color: palevioletred;
+    justify-content: center;
+    text-align: left;
+    font-family: "Baloo Tamma 2", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-size: small;
+}
+.grid p{
+    /* justify-items: center; */
+    /* justify-content: center */
+    text-align: center;
+    font-family: "Baloo Tamma 2", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 00;
+  font-style: normal;
+  font-size: 100%;
+  color: gray;
+
+}
+.grid button{
+    padding: 10px;
+    margin: 12px;
+    border-radius: 12px;
+    border: none;
+    background-color: lavender;
+    color: rgb(88, 88, 128);
+
+}
+.grid h2{
+    text-align: center;
+    font-family: "Baloo Tamma 2", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 0;
+  font-style: normal;
+  font-size: 200%;
+}
+.heading2{
+    /* height: 544px; */
+    /* width: 60vw; */
+    background-color: rgb(248, 248, 248);
+    padding: 22px 120px;
+    /* display: flex; */
+    
+}
+.headcont h1{
+    font-family: "Baloo Tamma 2", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 300%;
+}
+.headcont p{
+    font-family: "Baloo Tamma 2", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 00;
+  font-style: normal;
+  font-size: 150%;
+  color: gray;
+  width: 47vw;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    margin-top: 100px;
+}
+.grid2 img{
+    padding: 12px;
+    
+}
+.grid2 h4{
+    font-family: "Baloo Tamma 2", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 00;
+    font-style: normal;
+    font-size: 120%;
+    color: black;
+    margin: 0px 12px;
+}
+.grid2 p{
+    font-family: "Baloo Tamma 2", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 00;
+  font-style: normal;
+  font-size: 130%;
+  color: gray;
+  margin: 0px 12px;
+}
+.black{
+    
+    margin-top: 100px;
+    background-color: black;
+}
+.black .cont2 {
+    text-align: center;
+  padding: 14px;
+}
+.black .cont2 span{
+    text-align: center;
+    font-family: "Courier New";
+    color: rgb(12 102 48);
+    padding: 5px 10px;
+    background-color: rgb(182 227 200);
+    border-radius: 4px;
+    margin: 22px;
+}
+.black .cont2 h3{
+    font-family: "Baloo Tamma 2", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 00;
+  font-style: normal;
+  font-size: 200%;
+  color: white;
+  margin: 0px 12px;
+  padding: 22px 22px 0px;
+}
+.black .cont2 p{
+    font-family: "Baloo Tamma 2", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 140%;
+  color: grey;
+  /* margin: 0px 12px; */
+  padding: 0px 400px;
+}
+.grid3{
+    margin: px;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+}
+.grid3 h4{
+    color: white;
+    font-family: "Baloo Tamma 2", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 140%;
+}
+.maincont{
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding: 2px 120px; */
+    width: 80vw;
+}
+.maincont span{
+    text-align: left;
+    font-family: "Courier New";
+    color: rgb(132 0 0 );
+    padding: 5px 12px;
+    background-color: rgb(255 230 207);
+    border-radius: 4px;
+    margin: 2px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.maincont h4{
+    
+    font-family: "Baloo Tamma 2", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 700;
+  
+    font-size: 250%;
+}
+.maincont h5{
+    font-family: "Baloo Tamma 2", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 120%;
+    color: grey;
+}
+.video{
+    display: flex;
+    justify-content: left;
+    margin: 50px 140px;
+}
+.video video{
+   
+    
+    width: 60vw;
+    border-radius: 24px;
+    
+    
+}
+/* .videocont{
+    /* hh */
+
+.videocont h3{
+    /* padding: 20px 120px 0px; */
+    padding-left: 120px;
+    font-family: "Baloo Tamma 2", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 700;
+  
+    font-size: 200%;
+}
+.videocont h5{
+    padding: 0px 120px;
+    color: gray;
+    font-family: "Baloo Tamma 2", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 500;
+  
+    font-size: 100%;
+}
+.videocont span{
+    padding: 0px 120px;
+    color: gray;
+    font-family: "Baloo Tamma 2", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 500;
+  
+    font-size: 100%;
+}
+.videocont ul{
+    display: flex;
+    list-style: none;
+    /* justify-content: center; */
+    padding: 5px;
+
+}
+.videocont ul li{
+    padding: 0px 120px;
+    font-family: "Baloo Tamma 2", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    justify-items: center;
+    
+}
+.videocont ul li img{
+    justify-content: center;
+    justify-items: center;
+}
+
+
